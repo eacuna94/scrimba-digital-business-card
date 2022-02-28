@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+.info {
+  text-align: center;
+}
+
+.profile-picture {
+  width: 315px;
+  border-radius: 10px 10px 0 0;
+}
+
+.position {
+  color: #f3bf99;
+  font-size: 12.8px;
+}
+
+.website {
+  color: white;
+  font-size: 10px;
+}
+
+.info-btn {
+  padding: 15px 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+.email-link {
+  padding: 5px 28px;
+  background-color: white;
+  color: black;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.linkedin-link {
+  padding: 5px 18px;
+  max-width: 115px;
+  background-color: #5093e2;
+  color: white;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.email-icon {
+  width: 12.8px;
+  margin-right: 5px;
+}
+
+.linkedin-icon {
+  width: 12.8px;
+  margin-right: 5px;
+}
+
+.about,
+.interests {
+  padding: 0 35px;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer > a {
+  width: 25px;
+  margin: 10px 10px;
+}
